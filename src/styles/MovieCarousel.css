@@ -1,0 +1,50 @@
+.movie-slide img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.carousel-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;  
+}
+
+.movie-slide {
+    position: relative;
+    max-width: 800px;
+    max-height: 350px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.carousel-title {
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+}
+
+.arrow {
+    background-color: rgb(208, 35, 35);
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0 5rem;
+    border: none;
+    font-size: large;
+    font-weight: bold;
+    font-family: Arial;
+    /*width: 15px;
+    height: 15px; */
+}
+
+.arrow:hover {
+    cursor: pointer;
+}
